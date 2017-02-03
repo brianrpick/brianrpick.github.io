@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   get '/', to: "pages#home"
   get '/moneywatch', to: "pages#moneywatch"
   get '/index', to: "pages#index"
+  get '/contact', to: "pages#contact"
 end

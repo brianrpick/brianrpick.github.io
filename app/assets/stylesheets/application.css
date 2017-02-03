@@ -13,3 +13,8 @@
  *= require_tree .
  *= require_self
  */
+
+#extra {
+  text-transform: uppercase;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
