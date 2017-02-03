@@ -1,8 +1,9 @@
 class PagesController < ApplicationController
   def home
-  end
-  def moneywatch
     render layout: false
   end
-  
+  def moneywatch
+  end
+  def index
+  end
 end
