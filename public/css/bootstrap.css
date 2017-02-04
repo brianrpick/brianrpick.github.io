@@ -1,4 +1,4 @@
-/*!
+F/*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -3057,9 +3057,9 @@ fieldset[disabled] a.btn {
   pointer-events: none;
 }
 .btn-default {
-  color: #333;
+  color: #ffffff;
   background-color: #fff;
-  border-color: #ccc;
+  border-color: #000000-;
 }
 .btn-default:focus,
 .btn-default.focus {
@@ -3114,19 +3114,30 @@ fieldset[disabled] .btn-default.focus {
   background-color: #333;
 }
 .btn-primary {
-  color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
+  color: #204d74;
+  background-color: #070707;
+  border-color: #070707;
 }
 .btn-primary:focus,
 .btn-primary.focus {
   color: #fff;
-  background-color: #286090;
-  border-color: #122b40;
+  background-color: #070707;
+  border-color: #070707;
+}
+}
+.btn-email{
+  color: #ffffff;
+  background-color: #070707;
+  border-color: #070707;
+}
+.btn-email:hover {
+  color: #fff;
+  background-color: #38393a;
+  border-color: #204d74;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #286090;
+  background-color: #38393a;
   border-color: #204d74;
 }
 .btn-primary:active,
@@ -6754,4 +6765,16 @@ button.close {
     display: none !important;
   }
 }
+#email {
+  color: #ffffff;
+  background-color: #fff;
+  border-color: #000000-;
+}
+#email:hover {
+  color: #333;
+  background-col
+  or: #e6e6e6;
+  border-color: #adadad;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */

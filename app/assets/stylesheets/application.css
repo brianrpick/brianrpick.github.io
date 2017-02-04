@@ -18,3 +18,12 @@
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+#email{
+  background-color: #070707;
+  border-color: #070707;
+}
+#email:hover {
+  color: #fff;
+  background-color: #38393a;
+  border-color: #204d74;
+}

@@ -6,7 +6,7 @@ class PagesController < ApplicationController
   end
   def index
   end
-  def contact
+  def about
   end
 end
 
