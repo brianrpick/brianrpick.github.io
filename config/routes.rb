@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get '/moneywatch', to: "pages#moneywatch"
   get '/index', to: "pages#index"
   get '/experience', to: "pages#experience"
+  get '/amazi', to: "pages#amazi"
 end

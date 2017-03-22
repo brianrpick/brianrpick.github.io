@@ -8,5 +8,7 @@ class PagesController < ApplicationController
   end
   def about
   end
+  def amazi
+  end
 end
 
