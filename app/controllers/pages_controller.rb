@@ -10,5 +10,8 @@ class PagesController < ApplicationController
   end
   def amazi
   end
+  def todo
+  render layout: false
+  end
 end
 

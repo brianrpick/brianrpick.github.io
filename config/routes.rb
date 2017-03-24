@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   get '/index', to: "pages#index"
   get '/experience', to: "pages#experience"
   get '/amazi', to: "pages#amazi"
+  get '/todo', to: "pages#todo"
 end
