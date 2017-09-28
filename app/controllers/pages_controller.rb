@@ -11,7 +11,9 @@ class PagesController < ApplicationController
   def amazi
   end
   def todo
-  render layout: false
+    render layout: false
+  end
+  def slidingpuzzle
   end
 end
 

@@ -6,4 +6,7 @@ Rails.application.routes.draw do
   get '/experience', to: "pages#experience"
   get '/amazi', to: "pages#amazi"
   get '/todo', to: "pages#todo"
+  get '/slidingpuzzle', to: "pages#slidingpuzzle"
+  get '/rgbgame', to: "pages#rgbgame"
+  get '/sfcrime', to: "pages#sfcrime"
 end
